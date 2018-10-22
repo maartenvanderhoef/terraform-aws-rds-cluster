@@ -37,6 +37,7 @@ variable "subnets" {
 
 variable "availability_zones" {
   type        = "list"
+  default     = []
   description = "List of Availability Zones that instances in the DB cluster can be created in"
 }
 
